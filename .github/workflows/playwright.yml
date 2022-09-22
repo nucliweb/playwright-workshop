@@ -20,7 +20,7 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test
       - name: Run Playwright tests with trace
-        run: npx playwright test:trace
+        run: npm run test:trace
       - uses: actions/upload-artifact@v2
         if: always()
         with:
