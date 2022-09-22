@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
+    "test:trace": "npx playwright test --trace on",
     "test:chromiun": "npx playwright test --project=chromium",
     "test:example": "npx playwright test example",
     "test:debug": "npx playwright test --debug",
