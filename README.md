@@ -1,1 +1,1 @@
-# playwright-workshop
+# playwright-workshop 😊
